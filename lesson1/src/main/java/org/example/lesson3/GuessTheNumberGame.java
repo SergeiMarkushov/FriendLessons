@@ -29,8 +29,13 @@ public class GuessTheNumberGame {
     }
 
     public static int input() {
-        try (Scanner scanner = new Scanner(System.in)) {
-            return scanner.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            try {
+                return scanner.nextInt();
+            } catch (Exception e) {
+                scanner.nextLine();
+            }
         }
     }
 }
