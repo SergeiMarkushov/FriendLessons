@@ -4,7 +4,7 @@ public class House {
     // в задании писал что публичные переменные
     public double high; //высота
     public double width; //ширина
-    public double floors; //количество этажей
+    public int floors; //количество этажей
     public String color; //цвет
 
 
