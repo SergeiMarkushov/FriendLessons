@@ -7,5 +7,7 @@ public class House {
     public int floors; //количество этажей
     public String color; //цвет
 
+    public double length; //длина
+
 
 }
